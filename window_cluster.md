@@ -3,7 +3,7 @@ This is a step by step list of instruction on how to log into the cluster from a
 1.Download Putty for the following link: https://www.putty.org/
 2. Once you have installed Putty, you should open it up and see the following window:
 
-* [Putty](Putty_picture.jpeg)
+![Putty](Putty_picture.jpeg)
 
 3. Enter the following into the window:
 
