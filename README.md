@@ -84,7 +84,7 @@ Once you familirized yourself with the reports please fill in the following tuto
 First, before you begin the practical you need to be able to log in to the cluster. Click on the instructions below where you will find an explanation on how to do that. The instructions are different whether you have a mac or a windows computer. 
 
 * [How to log in to cluster MAC](mac_cluster.md)
-* [How to log in to cluster WINDOWS](windows_cluster.md)
+* [How to log in to cluster WINDOWS](window_cluster.md)
 
 ### Metagenome Atlas Tutorial 1
 
