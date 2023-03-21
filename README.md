@@ -101,14 +101,66 @@ If you find yourself in a place that looks like this (except with your name and 
 
 then you are good to go! Now you have to follow the following tutorial. If you need any help on how to navigate, here is a bash cheet sheet:
 
-<img src="bashcheetsheet.png" width="48">
+<img src="bashcheetsheet.png" width="85">
 
 You can find the tutorial here: https://fgcz-shiny.uzh.ch/Metagenome_Atlas_Part1/
 
 ## Day 3: Metagenomics and Metatranscriptomics
 
+Again busy day ahead of us. But don't worry, last day! Today we first follow the tutorial on Metagenome Atlas but the second one this time. You don't need to log into the cluster like you did before. Everything is R based.
+
 ### Metagenome Atlas Tutorial 2
+
+For this tutorial you will have to set up an account on posit- Sign up with google or Github. You will find all information within the tutorial on how to do it. 
+You can find the precise instructions and the tutorial here: https://fgcz-shiny.uzh.ch/Metagenome_Atlas_Part2/
+
+
+Now that we have explored assembly-based metagenomics, lets explore assembly-free metagenomics. First - introduction to Kraken.
+
 ### Kraken2 tutorial
+
+You will run Kraken on SUSHI. If you would like a reminder on where to go, see above. Otherwise please follow the following tutorial. 
+
+* [Kraken Tutorial](Kraken.pptx)
+
+Keep in mind we are looking at a dataset that we worked on during Metagenome Atlas Part 1 tutorial. We did not find out which genomes we were acutally assembling. But perhaps we can find out using Kraken. You are looking for 2 genomes in sample1 and 3 genomes in sample2. 
+
+<details>
+  <summary>Click me</summary>
+  
+  ### Sample Content
+  1. Sample1: Mesomycoplasma hyorhinis, Streptococcus thermophilus
+  2. Sample2: Mesomycoplasma hyorhinis, Ureaplasma urealyticum, Streptococcus thermophilus
+</details>
+
+An an introduction to metatranscriptomics is best began with a lecture form a guest on metaproteomics. 
+
 ### Samsa2 tutorial
 
+Now tutorial! We will also use SUSHI and we will run a report on SAMSA2 analysis. See below for exact instructions.
 
+* [Samsa2 Tutorial](Samsa2.pptx)
+
+There are several questions we will discuss after you familiarize yourself with the output.
+Here are the questions:
+
+- Is species/functional diversity (richness and evenness) higher before or after
+medication and do you observe the same trends in both patient groups?
+ - What species dominate the vaginal microbiome before the application of
+medication and what after the application of medication? Do you observe
+differences in time point 1 between patients that did and did not respond to
+treatment in terms of species? Do you think any of this can explain lack of the
+response
+- What is log2Fold change in transcript abundance from those species before and
+after medication in both patient groups?
+- 16S results were different. Why do you think that is?
+- Which functions have clearly been upregulated/downregulated in the microbiome
+after successful curing of BV? Do you know anything about these functions? Could
+you explain what has been happening?
+- What functions do you see upregulated or downregulated in the microbiome of
+patients who were not successfully treated? Are there any parallels with the cured
+patients? Does anything interesting strike you?
+
+Lets discuss.
+
+THANK YOU AND CONGRATULATIONS FOR COMPLETING THE COURSE!!!
