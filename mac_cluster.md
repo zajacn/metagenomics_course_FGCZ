@@ -9,13 +9,13 @@ How to log in to the cluster step by step.
 
 cd /scratch/p29934/my_bfabric_name/ \
 source /usr/local/ngseq/miniconda3/etc/profile.d./conda.sh \
-conda activate metagenome-atlas \
+conda activate metagenome-atlas 
 
 Now you should see the following the left hand corner: \
 (metagenome-atlas) your_bfabric_name@fgcz-h-176:/scratch/p29934/my_bfabric_name/$ \
 OR \
 (metagenome-atlas) your_bfabric_name@fgcz-h-900:/scratch/p29934/my_bfabric_name/$ \
 OR \
-(metagenome-atlas) your_bfabric_name@fgcz-h-911:/scratch/p29934/my_bfabric_name/$ \
+(metagenome-atlas) your_bfabric_name@fgcz-h-911:/scratch/p29934/my_bfabric_name/$ 
 
 If you don't see it, please let me know.

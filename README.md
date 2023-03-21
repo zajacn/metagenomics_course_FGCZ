@@ -101,7 +101,7 @@ If you find yourself in a place that looks like this (except with your name and 
 
 then you are good to go! Now you have to follow the following tutorial. If you need any help on how to navigate, here is a bash cheet sheet:
 
-![plot](bashcheetsheet.png)
+![plot](bashcheetsheet.png {width=40px height=400px})
 
 You can find the tutorial here: https://fgcz-shiny.uzh.ch/Metagenome_Atlas_Part1/
 

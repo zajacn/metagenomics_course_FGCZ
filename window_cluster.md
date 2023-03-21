@@ -1,6 +1,6 @@
 This is a step by step list of instruction on how to log into the cluster from a windows computer.
 
-1.Download Putty for the following link: https://www.putty.org/ \
+1. Download Putty for the following link: https://www.putty.org/ \
 2. Once you have installed Putty, you should open it up and see the following window:
 
 ![Putty](Putty_picture.jpeg)
@@ -19,14 +19,14 @@ This is a step by step list of instruction on how to log into the cluster from a
 
 cd /scratch/p29934/my_bfabric_name/ \
 source /usr/local/ngseq/miniconda3/etc/profile.d./conda.sh \
-conda activate metagenome-atlas \
+conda activate metagenome-atlas 
 
 Now you should see the following the left hand corner: \
 (metagenome-atlas) your_bfabric_name@fgcz-h-176:/scratch/p29934/my_bfabric_name/$ \
 OR \
 (metagenome-atlas) your_bfabric_name@fgcz-h-900:/scratch/p29934/my_bfabric_name/$ \
 OR \
-(metagenome-atlas) your_bfabric_name@fgcz-h-911:/scratch/p29934/my_bfabric_name/$ \
+(metagenome-atlas) your_bfabric_name@fgcz-h-911:/scratch/p29934/my_bfabric_name/$ 
 
 If you don't see the following, please let me know.
 
