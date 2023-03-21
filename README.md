@@ -12,6 +12,8 @@ For more information please see the description of each Day.
 
 ## Day 1: Introduction and 16S analysis
 
+Today, first you will have two lectures. One regarding introduction to metagenomics and 16S analysis. This will be followed by a short excercise. In order to complete the excercises you will need SUSHI.
+
 ### SUSHI instructions - How to get there
 
 Go to [https://fgcz-course1.bfabric.org/](https://fgcz-course1.bfabric.org/)
@@ -32,8 +34,8 @@ Here are your project numbers:
 6007 - Martin Niamh\
 6008 - Tristan Nolan\
 6009 - Rhowell Tiozon\
-6010
-6011
+6010 - Esther Christen\
+6011 - 
 
 Exercise instructions:
 
@@ -43,6 +45,9 @@ First thing to be done when you get your raw data is run quality control tests. 
 Please look at the following slides to run the FastQC tutorial.
 
 * [FastQC tutorial link](FastQC.pptx)
+
+
+Now that we have completed the excercises we will go on to a lecture on 16S and then a guest talk. Afterwards we will do an excercises using QIIME2.
 
 ### QIIME2 analysis on SUSHI
 
@@ -79,6 +84,8 @@ Once you familirized yourself with the reports please fill in the following tuto
 
 ## Day 2: Metagenomics
 
+You made it to Day 2 ;)! Today first we will have a project discussion followed by an introduction to metagenomic analyses. We will also have a guest lecture from the creator of Metagenome Atlas. Afterwards we will do some analyses using Metagenome Atlas. In order to do the first part you will need to use the command line.
+
 ### How to log into the cluster
 
 First, before you begin the practical you need to be able to log in to the cluster. Click on the instructions below where you will find an explanation on how to do that. The instructions are different whether you have a mac or a windows computer. 
@@ -87,6 +94,16 @@ First, before you begin the practical you need to be able to log in to the clust
 * [How to log in to cluster WINDOWS](window_cluster.md)
 
 ### Metagenome Atlas Tutorial 1
+
+If you find yourself in a place that looks like this (except with your name and perhaps a different server):
+
+![plot](cluster_location_scshot.png)
+
+then you are good to go! Now you have to follow the following tutorial. If you need any help on how to navigate, here is a bash cheet sheet:
+
+![plot](bashcheetsheet.png)
+
+You can find the tutorial here: https://fgcz-shiny.uzh.ch/Metagenome_Atlas_Part1/
 
 ## Day 3: Metagenomics and Metatranscriptomics
 
