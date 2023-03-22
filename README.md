@@ -101,7 +101,7 @@ If you find yourself in a place that looks like this (except with your name and 
 
 then you are good to go! Now you have to follow the following tutorial. If you need any help on how to navigate, here is a bash cheet sheet:
 
-<img src="bashcheetsheet.png" width="85">
+<img src="bashcheetsheet.png" width="185">
 
 You can find the tutorial here: https://fgcz-shiny.uzh.ch/Metagenome_Atlas_Part1/
 
