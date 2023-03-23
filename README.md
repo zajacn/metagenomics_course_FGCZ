@@ -51,13 +51,13 @@ Now that we have completed the excercises we will go on to a lecture on 16S and 
 
 ### QIIME2 analysis on SUSHI
 
-For 16S rRNA analysis we will use a dataset from the Earth Microbiome Project. 
+The software we will use for analysing our 16S rRNA datasets is QIIME2. For more info please see: https://docs.qiime2.org/2023.2/. We will use a dataset from the Earth Microbiome Project as discussed. 
 You need to go to SUSHI (see: SUSHI instructions - How to get there) and enter your project. In the project you will find a dataset labelled 16S_EarthMicrobiome. Enter this dataset.
-Now you need to run QIIME2 on the dataset. How to do that? Download the powerpoint instructions below.
+As this is going to be a group project, you need a person to pair up with. Please form groups of 2. Now you need to run QIIME2 on the dataset and each one of you needs to run it using a different grouping variable. How to do that? Download the powerpoint instructions below.
 
 * [Powerpoint instructions on how to run QIIME2](QIIME2.pptx)
 
-Once you have completed running QIIME2, have a look at the reports. You will have a following list of reports:
+Once you have completed running QIIME2 (the run might take around 20min), have a look at the reports. You will have a following list of reports:
 
 Statis Report - this is a combined report of all analysis with fixed/non interactive graphs\
 Demux Report - a QIIME2 interactive report of demultiplexed sequence counts and data quality\
@@ -72,7 +72,7 @@ Bray Curtis Diversity - a QIIME2 interactive report of beta diversity (bray curt
 Jaccard Emperor Plot - a QIIME2 interactive 3D PCA based on Jaccard Matrix \
 Bray Curtis Emperor Plot - a QIIME2 interactive 3D PCA based on Bray Curtis Matrix \ 
 Alpha Rarefaction - a QIIME2 interactive plot showing rarefaction curve \
-Differential abundance - a QIIME2 interactive report on results of ANCOM\
+Differential abundance - a QIIME2 interactive report on results of ANCOM
 
 All these reports refer to the following workflow:
 
@@ -81,6 +81,21 @@ All these reports refer to the following workflow:
 Once you familirized yourself with the reports please fill in the following tutorial based on the data, you will need your bfabric login:
 
 * [Tutorial on Earth Microbiome data](https://fgcz-shiny.uzh.ch/QIIME2_EarthMicrobiome/)
+
+
+### Bonus exercise - paired end sequencing
+
+If you are done with that and you have time, there is a bonus exercise. There is another dataset the two of you can analyse and answer related questions. Lets begin! 
+Go back to your project in SUSHI and select a dataset called 16S_SchlossMice. Enter this dataset. You will see it has 20 samples and the data refers to a study Schloss et al. 2012 (https://www.tandfonline.com/doi/full/10.4161/gmic.21008
+). What to do with this dataset? See the powerpoint presentation below:
+
+* [Powerpoint instructions on how to run QIIME2 Bonus exercise](QIIME2_bonus.pptx)
+
+Once you familirized yourself with the reports please fill in the following tutorial based on the data, you will need data from both factors to answer the questions together:
+
+* [Tutorial on Schloss Mice data](https://fgcz-shiny.uzh.ch/QIIME2_Schloss_Mice/)
+
+At the end we can discuss the answers together so if anything is unclear - keep it in mind!
 
 ## Day 2: Metagenomics
 
@@ -101,7 +116,7 @@ If you find yourself in a place that looks like this (except with your name and 
 
 then you are good to go! Now you have to follow the following tutorial. If you need any help on how to navigate, here is a bash cheet sheet:
 
-<img src="bashcheetsheet.png" width="185">
+<img src="bashcheetsheet.png" width="200">
 
 You can find the tutorial here: https://fgcz-shiny.uzh.ch/Metagenome_Atlas_Part1/
 
@@ -126,7 +141,7 @@ You will run Kraken on SUSHI. If you would like a reminder on where to go, see a
 Keep in mind we are looking at a dataset that we worked on during Metagenome Atlas Part 1 tutorial. We did not find out which genomes we were acutally assembling. But perhaps we can find out using Kraken. You are looking for 2 genomes in sample1 and 3 genomes in sample2. 
 
 <details>
-  <summary>Click me</summary>
+  <summary>Check for Answers here!</summary>
   
   ### Sample Content
   1. Sample1: Mesomycoplasma hyorhinis, Streptococcus thermophilus
