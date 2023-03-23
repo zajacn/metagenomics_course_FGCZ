@@ -3,7 +3,7 @@
 Welcome to the Metagenomics Course!
 
 Table of contents:
-* [Schedule]()
+* [Schedule](SChedule_Metagenomics_Dec2023.docx)
 * [Course slides](): sign in with your bfabric credentials to see the contents. The contents are divided into each day of the course.
 * [Course in the Bfabric](https://fgcz-bfabric.uzh.ch/bfabric/project/show.html?id=29934&tab=details): here you can find all the communication.
 
@@ -12,7 +12,7 @@ For more information please see the description of each Day.
 
 ## Day 1: Introduction and 16S analysis
 
-Today, first you will have two lectures. One regarding introduction to metagenomics and 16S analysis. This will be followed by a short excercise. In order to complete the excercises you will need SUSHI.
+Today we start with an introductory lecture. This will be followed by a short excercise. In order to complete the excercises you will need SUSHI.
 
 ### SUSHI instructions - How to get there
 
@@ -29,13 +29,11 @@ Here are your project numbers:
 6002 - Ali Bektas\
 6003 - Alyssa Deluz\
 6004 - Pamela Guerillot\
-6005 - Monica Iachizzi\
-6006 - Marco LaFortezza\
-6007 - Martin Niamh\
-6008 - Tristan Nolan\
-6009 - Rhowell Tiozon\
-6010 - Esther Christen\
-6011 - 
+6005 - Marco LaFortezza\
+6006 - Martin Niamh\
+6007 - Tristan Nolan\
+6008 - Rhowell Tiozon\
+6009 - Esther Christen 
 
 Exercise instructions:
 
@@ -46,8 +44,7 @@ Please look at the following slides to run the FastQC tutorial.
 
 * [FastQC tutorial link](FastQC.pptx)
 
-
-Now that we have completed the excercises we will go on to a lecture on 16S and then a guest talk. Afterwards we will do an excercises using QIIME2.
+Now that we have completed the excercises we will go on to a lecture on 16S. Afterwards we will do an excercises using QIIME2.
 
 ### QIIME2 analysis on SUSHI
 
@@ -82,7 +79,6 @@ Once you familirized yourself with the reports please fill in the following tuto
 
 * [Tutorial on Earth Microbiome data](https://fgcz-shiny.uzh.ch/QIIME2_EarthMicrobiome/)
 
-
 ### Bonus exercise - paired end sequencing
 
 If you are done with that and you have time, there is a bonus exercise. There is another dataset the two of you can analyse and answer related questions. Lets begin! 
@@ -99,9 +95,11 @@ At the end we can discuss the answers together so if anything is unclear - keep 
 
 ## Day 2: Metagenomics
 
-You made it to Day 2 ;)! Today first we will have a project discussion followed by an introduction to metagenomic analyses. We will also have a guest lecture from the creator of Metagenome Atlas. Afterwards we will do some analyses using Metagenome Atlas. In order to do the first part you will need to use the command line.
+You made it to Day 2 ;)! Today first we will have a project discussion followed by an special event (8:15 - 11:00). 
+After that we will talk about metagenomic analyses and I will give a short intro (11:00 - 12:00). We will also have a guest lecture from the creator of Metagenome Atlas (13:00 - 14:00). 
+Afterwards we will do some analyses using Metagenome Atlas. In order to do the first part you will need to use the command line.
 
-### How to log into the cluster
+### How to log into the cluster - NEEDED FOR FIRST PRACTICAL
 
 First, before you begin the practical you need to be able to log in to the cluster. Click on the instructions below where you will find an explanation on how to do that. The instructions are different whether you have a mac or a windows computer. 
 
@@ -114,7 +112,8 @@ If you find yourself in a place that looks like this (except with your name and 
 
 ![plot](cluster_location_scshot.png)
 
-then you are good to go! Now you have to follow the following tutorial. If you need any help on how to navigate, here is a bash cheet sheet:
+then you are good to go! Now you have to follow the following tutorial. During the tutorial you will be creating new folders and files. Sometimes you want to see what is within your whole directory. You can do that by typing 'ls -alt *'
+Otherwise if you need any help on how to navigate, here is a bash cheet sheet. Using these commands you can enter new directories, open files and exit directories:
 
 <img src="bashcheetsheet.png" width="300">
 
@@ -130,7 +129,7 @@ For this tutorial you will have to set up an account on posit- Sign up with goog
 You can find the precise instructions and the tutorial here: https://fgcz-shiny.uzh.ch/Metagenome_Atlas_Part2/
 
 
-Now that we have explored assembly-based metagenomics, lets explore assembly-free metagenomics. First - introduction to Kraken.
+Now that we have explored assembly-based metagenomics, lets explore assembly-free metagenomics. First - introduction to Kraken. Followed by a tutorial.
 
 ### Kraken2 tutorial
 
@@ -156,7 +155,7 @@ Now tutorial! We will also use SUSHI and we will run a report on SAMSA2 analysis
 
 * [Samsa2 Tutorial](Samsa2.pptx)
 
-There are several questions we will discuss after you familiarize yourself with the output.
+There are several questions we will discuss after you familiarize yourself with the output. Have a detailed look at what the graphs are showing.
 Here are the questions:
 
 - Is species/functional diversity (richness and evenness) higher before or after
@@ -169,6 +168,9 @@ response
 - What is log2Fold change in transcript abundance from those species before and
 after medication in both patient groups?
 - 16S results were different. Why do you think that is?
+
+![16S results](Metatranscriptomics_16S.png)
+
 - Which functions have clearly been upregulated/downregulated in the microbiome
 after successful curing of BV? Do you know anything about these functions? Could
 you explain what has been happening?
