@@ -3,7 +3,7 @@
 Welcome to the Metagenomics Course!
 
 Table of contents:
-* [Schedule](Schedule_Metagenomics_Dec2023.pdf)
+* [Schedule](SChedule_Metagenomics_March2023.pdf)
 * [Course slides](slides/)
 * [Course in the Bfabric](https://fgcz-bfabric.uzh.ch/bfabric/project/show.html?id=29934&tab=details): here you can find all the communication.
 
@@ -85,7 +85,7 @@ If you are done with that and you have time, there is a bonus exercise. There is
 Go back to your project in SUSHI and select a dataset called 16S_SchlossMice. Enter this dataset. You will see it has 20 samples and the data refers to a study Schloss et al. 2012 (https://www.tandfonline.com/doi/full/10.4161/gmic.21008
 ). What to do with this dataset? See the powerpoint presentation below:
 
-* [Powerpoint instructions on how to run QIIME2 Bonus exercise](instructions/QIIME2_bonus.pptx)
+* [Powerpoint instructions on how to run QIIME2 Bonus exercise](instructions/QIIME2_Bonus.pptx)
 
 Once you familirized yourself with the reports please fill in the following tutorial based on the data, you will need data from both factors to answer the questions together:
 
@@ -129,7 +129,8 @@ For this tutorial you will have to set up an account on posit- Sign up with goog
 You can find the precise instructions and the tutorial here: https://fgcz-shiny.uzh.ch/Metagenome_Atlas_Part2/
 
 
-Now that we have explored assembly-based metagenomics, lets explore assembly-free metagenomics. First - introduction to Kraken. Followed by a tutorial.
+Now that we have explored assembly-based metagenomics, lets explore assembly-free metagenomics and metatranscriptomics. A tool that we will use for assembly-free metagenomics is Kraken2. We will look at the theory behind Kraken and do a tutorial. We will produce an html report using Krona. 
+Afterwards we will turn to Metatranscriptomics (see more info below).
 
 ### Kraken2 tutorial
 
@@ -147,7 +148,7 @@ Keep in mind we are looking at a dataset that we worked on during Metagenome Atl
   2. Sample2: Mesomycoplasma hyorhinis, Ureaplasma urealyticum, Streptococcus thermophilus
 </details>
 
-An an introduction to metatranscriptomics is best began with a lecture form a guest on metaproteomics. 
+An an introduction to metatranscriptomics is best began with a lecture from a guest on metaproteomics. This will be followed by a talk on the theory behind metatranscriptomics and a tutorial where we are going to use software called Samsa2.
 
 ### Samsa2 tutorial
 

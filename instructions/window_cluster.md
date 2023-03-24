@@ -1,9 +1,9 @@
 This is a step by step list of instruction on how to log into the cluster from a windows computer.
 
-1. Download Putty for the following link: https://www.putty.org/ \
+1. Download Putty for the following link: https://www.putty.org/    
 2. Once you have installed Putty, you should open it up and see the following window:
 
-![Putty](Putty_picture.jpeg)
+![Putty](../pictures/Putty_picture.jpeg)
 
 3. Enter the following into the window:
 
@@ -30,8 +30,8 @@ ssh fgcz-h-911
 8. Now you need to navigate to the directory you will be working in by typing the following lines of code, line by line into the command line, after every line pressing enter. Please replace your_bfabric_name with your actual name.
 
 ```js
-cd /scratch/p29934/my_bfabric_name/ \
-source /usr/local/ngseq/miniconda3/etc/profile.d./conda.sh \
+cd /scratch/p29934/my_bfabric_name/ 
+source /usr/local/ngseq/miniconda3/etc/profile.d./conda.sh 
 conda activate metagenome-atlas 
 ```
 
