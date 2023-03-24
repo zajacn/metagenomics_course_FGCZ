@@ -19,7 +19,7 @@ Today we start with an introductory lecture. This will be followed by a short ex
 Go to [https://fgcz-course1.bfabric.org/](https://fgcz-course1.bfabric.org/)
 
 You will end up on a page like this, not exactly like this but the same outline:
-![plot](sushi_entry_page.png)
+![plot](pictures/sushi_entry_page.png)
 
 In the top right corner (window "Project") enter your project number.
 Here are your project numbers:
@@ -42,7 +42,7 @@ Exercise instructions:
 First thing to be done when you get your raw data is run quality control tests. There are many tools available out there but today we are going to run FastQC.
 Please look at the following slides to run the FastQC tutorial.
 
-* [FastQC tutorial link](FastQC.pptx)
+* [FastQC tutorial link](instructions/FastQC.pptx)
 
 Now that we have completed the excercises we will go on to a lecture on 16S. Afterwards we will do an excercises using QIIME2.
 
@@ -52,7 +52,7 @@ The software we will use for analysing our 16S rRNA datasets is QIIME2. For more
 You need to go to SUSHI (see: SUSHI instructions - How to get there) and enter your project. In the project you will find a dataset labelled 16S_EarthMicrobiome. Enter this dataset.
 As this is going to be a group project, you need a person to pair up with. Please form groups of 2. Now you need to run QIIME2 on the dataset and each one of you needs to run it using a different grouping variable. How to do that? Download the powerpoint instructions below.
 
-* [Powerpoint instructions on how to run QIIME2](QIIME2.pptx)
+* [Powerpoint instructions on how to run QIIME2](instructions/QIIME2.pptx)
 
 Once you have completed running QIIME2 (the run might take around 20min), have a look at the reports. You will have a following list of reports:
 
@@ -73,7 +73,7 @@ Differential abundance - a QIIME2 interactive report on results of ANCOM
 
 All these reports refer to the following workflow:
 
-![QIIME2 workflow](QIIME2.workflow.png)
+![QIIME2 workflow](pictures/QIIME2.workflow.png)
 
 Once you familirized yourself with the reports please fill in the following tutorial based on the data, you will need your bfabric login:
 
@@ -85,7 +85,7 @@ If you are done with that and you have time, there is a bonus exercise. There is
 Go back to your project in SUSHI and select a dataset called 16S_SchlossMice. Enter this dataset. You will see it has 20 samples and the data refers to a study Schloss et al. 2012 (https://www.tandfonline.com/doi/full/10.4161/gmic.21008
 ). What to do with this dataset? See the powerpoint presentation below:
 
-* [Powerpoint instructions on how to run QIIME2 Bonus exercise](QIIME2_bonus.pptx)
+* [Powerpoint instructions on how to run QIIME2 Bonus exercise](instructions/QIIME2_bonus.pptx)
 
 Once you familirized yourself with the reports please fill in the following tutorial based on the data, you will need data from both factors to answer the questions together:
 
@@ -103,19 +103,19 @@ Afterwards we will do some analyses using Metagenome Atlas. In order to do the f
 
 First, before you begin the practical you need to be able to log in to the cluster. Click on the instructions below where you will find an explanation on how to do that. The instructions are different whether you have a mac or a windows computer. 
 
-* [How to log in to cluster MAC](mac_cluster.md)
-* [How to log in to cluster WINDOWS](window_cluster.md)
+* [How to log in to cluster MAC](instructions/mac_cluster.md)
+* [How to log in to cluster WINDOWS](instructions/window_cluster.md)
 
 ### Metagenome Atlas Tutorial 1
 
 If you find yourself in a place that looks like this (except with your name and perhaps a different server):
 
-![plot](cluster_location_scshot.png)
+![plot](pictures/cluster_location_scshot.png)
 
 then you are good to go! Now you have to follow the following tutorial. During the tutorial you will be creating new folders and files. Sometimes you want to see what is within your whole directory. You can do that by typing 'ls -alt *'
 Otherwise if you need any help on how to navigate, here is a bash cheet sheet. Using these commands you can enter new directories, open files and exit directories:
 
-<img src="bashcheetsheet.png" width="300">
+<img src="pictures/bashcheetsheet.png" width="300">
 
 You can find the tutorial here: https://fgcz-shiny.uzh.ch/Metagenome_Atlas_Part1/
 
@@ -135,7 +135,7 @@ Now that we have explored assembly-based metagenomics, lets explore assembly-fre
 
 You will run Kraken on SUSHI. If you would like a reminder on where to go, see above. Otherwise please follow the following tutorial. 
 
-* [Kraken Tutorial](Kraken.pptx)
+* [Kraken Tutorial](instructions/Kraken.pptx)
 
 Keep in mind we are looking at a dataset that we worked on during Metagenome Atlas Part 1 tutorial. We did not find out which genomes we were acutally assembling. But perhaps we can find out using Kraken. You are looking for 2 genomes in sample1 and 3 genomes in sample2. 
 
@@ -153,7 +153,7 @@ An an introduction to metatranscriptomics is best began with a lecture form a gu
 
 Now tutorial! We will also use SUSHI and we will run a report on SAMSA2 analysis. See below for exact instructions.
 
-* [Samsa2 Tutorial](Samsa2.pptx)
+* [Samsa2 Tutorial](instructions/Samsa2.pptx)
 
 There are several questions we will discuss after you familiarize yourself with the output. Have a detailed look at what the graphs are showing.
 Here are the questions:
@@ -169,7 +169,7 @@ response
 after medication in both patient groups?
 - 16S results were different. Why do you think that is?
 
-![16S results](Metatranscriptomics_16S.png)
+![16S results](pictures/Metatranscriptomics_16S.png)
 
 - Which functions have clearly been upregulated/downregulated in the microbiome
 after successful curing of BV? Do you know anything about these functions? Could
