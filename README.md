@@ -79,6 +79,10 @@ Once you familirized yourself with the reports please fill in the following tuto
 
 * [Tutorial on Earth Microbiome data](https://fgcz-shiny.uzh.ch/QIIME2_EarthMicrobiome/)
 
+If you are interested in what qiime2 commands have been run on the dataset have a look at this document:
+
+* [QIIME2 commands](unifiedQIIME2Workflow.singleend.batch)
+
 ### Bonus exercise - paired end sequencing
 
 If you are done with that and you have time, there is a bonus exercise. There is another dataset the two of you can analyse and answer related questions. Lets begin! 
