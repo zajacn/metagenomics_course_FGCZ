@@ -24,16 +24,16 @@ You will end up on a page like this, not exactly like this but the same outline:
 In the top right corner (window "Project") enter your project number.
 Here are your project numbers:
 
-6000 - Magdalena Adamczyk\
-6001 - Irene Artuso\
-6002 - Ali Bektas\
-6003 - Alyssa Deluz\
-6004 - Pamela Guerillot\
-6005 - Marco LaFortezza\
-6006 - Martin Niamh\
-6007 - Tristan Nolan\
-6008 - Rhowell Tiozon\
-6009 - Esther Christen 
+6001 - Magdalena Adamczyk\
+6002 - Irene Artuso\
+6003 - Ali Bektas\
+6004 - Alyssa Deluz\
+6005 - Pamela Guerillot\
+6006 - Marco LaFortezza\
+6007 - Martin Niamh\
+6008 - Tristan Nolan\
+6009 - Rhowell Tiozon\
+6010 - Esther Christen 
 
 Exercise instructions:
 
@@ -44,7 +44,7 @@ Please look at the following slides to run the FastQC tutorial.
 
 * [FastQC tutorial link](instructions/FastQC.pptx)
 
-Now that we have completed the excercises we will go on to a lecture on 16S. Afterwards we will do an excercises using QIIME2.
+Now that we have completed the excercises we will go on to a lecture on 16S. We will then have a guest talk from a researcher using 16S in her forensic science research. Afterwards we will do an excercises using QIIME2.
 
 ### QIIME2 analysis on SUSHI
 
