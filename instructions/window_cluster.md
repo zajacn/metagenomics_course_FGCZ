@@ -21,7 +21,7 @@ If you bfabric name is: guerillot, lafortezza, niamhniv, copy paste the followin
 ssh fgcz-h-900
 ```
 
-if your bfabric name is: nolan or tiozon or miachizzi copy paste the following into the command line and click enter:
+if your bfabric name is: nolan or tiozon or teinzmann copy paste the following into the command line and click enter:
 
 ```js
 ssh fgcz-h-911

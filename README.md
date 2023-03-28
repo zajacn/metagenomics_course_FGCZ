@@ -32,7 +32,8 @@ Here are your project numbers:
 6006 - Marco LaFortezza\
 6007 - Martin Niamh\
 6008 - Tristan Nolan\
-6009 - Rhowell Tiozon
+6009 - Rhowell Tiozon\
+6010 - Teresa Einzmann
 
 Exercise instructions:
 
