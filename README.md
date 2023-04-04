@@ -24,16 +24,16 @@ You will end up on a page like this, not exactly like this but the same outline:
 In the top right corner (window "Project") enter your project number.
 Here are your project numbers:
 
-6001 - Magdalena Adamczyk\
-6002 - Irene Artuso\
-6003 - Ali Bektas\
-6004 - Alyssa Deluz\
-6005 - Pamela Guerillot\
-6006 - Marco LaFortezza\
-6007 - Martin Niamh\
-6008 - Tristan Nolan\
-6009 - Rhowell Tiozon\
-6010 - Teresa Einzmann
+6001
+6002
+6003 
+6004
+6005 
+6006 
+6007
+6008
+6009
+6010 
 
 Exercise instructions:
 
