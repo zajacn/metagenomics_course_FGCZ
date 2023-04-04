@@ -132,6 +132,7 @@ Again busy day ahead of us. But don't worry, last day! Today we first follow the
 For this tutorial you will have to set up an account on posit- Sign up with google or Github. You will find all information within the tutorial on how to do it. 
 You can find the precise instructions and the tutorial here: https://fgcz-shiny.uzh.ch/Metagenome_Atlas_Part2/
 
+REMEMBER THAT IF YOU WOULD LIKE TO GO BACK TO ANY OF THE TUTORIALS OR SEE THE CODE, YOU CAN FIND ALL OF THE INFORMATION HERE: https://github.com/metagenome-atlas/Tutorial
 
 Now that we have explored assembly-based metagenomics, lets explore assembly-free metagenomics and metatranscriptomics. A tool that we will use for assembly-free metagenomics is Kraken2. We will look at the theory behind Kraken and do a tutorial. We will produce an html report using Krona. 
 Afterwards we will turn to Metatranscriptomics (see more info below).
