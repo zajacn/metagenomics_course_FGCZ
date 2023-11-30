@@ -3,16 +3,16 @@
 Welcome to the Metagenomics Course!
 
 Table of contents:
-* [Schedule](SChedule_Metagenomics_March2023.pdf)
+* [Schedule]()
 * [Course slides](slides/)
-* [Course in the Bfabric](https://fgcz-bfabric.uzh.ch/bfabric/project/show.html?id=29934&tab=details): here you can find all the communication.
+* [Course in the Bfabric](): here you can find all the communication.
 
 
 For more information please see the description of each Day.
 
 ## Day 1: Introduction and 16S analysis
 
-Today we start with an introductory lecture. This will be followed by a short excercise. In order to complete the excercises you will need SUSHI.
+Today we start with an introductory lecture. This will be followed by a short set of excercises focusing on data QC.
 
 ### SUSHI instructions - How to get there
 
@@ -44,19 +44,24 @@ Please look at the following slides to run the FastQC tutorial.
 
 * [FastQC tutorial link](instructions/FastQC.pptx)
 
-Now that we have completed the excercises we will go on to a lecture on 16S. We will then have a guest talk from a researcher using 16S in her forensic science research. Afterwards we will do an excercises using QIIME2.
+Now that we have completed the excercises we will go on to a lecture on 16S. We will then have a guest talk from a researcher using 16S in her research. Afterwards we will do an excercises using QIIME2.
 
-### QIIME2 analysis on SUSHI
+### QIIME2 analysis 
 
 The software we will use for analysing our 16S rRNA datasets is QIIME2. For more info please see: https://docs.qiime2.org/2023.2/. We will use a dataset from the Earth Microbiome Project as discussed. 
-You need to go to SUSHI (see: SUSHI instructions - How to get there) and enter your project. In the project you will find a dataset labelled 16S_EarthMicrobiome. Enter this dataset.
-As this is going to be a group project, you need a person to pair up with. Please form groups of 2. Now you need to run QIIME2 on the dataset and each one of you needs to run it using a different grouping variable. How to do that? Download the powerpoint instructions below.
 
-* [Powerpoint instructions on how to run QIIME2](instructions/QIIME2.pptx)
 
-Once you have completed running QIIME2 (the run might take around 20min), have a look at the reports. You will have a following list of reports:
+[![Read Processing (Colab)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bokulich-lab/uzh-microbiome-tutorial/blob/main/01_read_processing.ipynb)
 
-Statis Report - this is a combined report of all analysis with fixed/non interactive graphs\
+In this notebook, we will process the data using qiime2. Click the link to access. The notebook is created by the authors of QIIME2.
+
+After that we will continue to the following link to learn how to visualise QIIME2 data and create figures for publications: There are some questions on the way, please answer and we will look at them together afterwards.
+
+[![Qiime2 Visualisation (Colab)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zajacn/QIIME2_Tutorial_FGCZ_2023/blob/main/02_16SVisualisation.ipynb)
+
+QIIME2 creates html outputs which can also be very helpful. Have a look at these reports below:
+
+Static Report - this is a combined report of all analysis with fixed/non interactive graphs\
 Demux Report - a QIIME2 interactive report of demultiplexed sequence counts and data quality\
 Denoising Stats - a QIIME2 table on the filtered reads at each step\
 Feature Table - a QIIME2 interactive report on ASV summary \
@@ -74,28 +79,6 @@ Differential abundance - a QIIME2 interactive report on results of ANCOM
 All these reports refer to the following workflow:
 
 ![QIIME2 workflow](pictures/QIIME2.workflow.png)
-
-Once you familirized yourself with the reports please fill in the following tutorial based on the data, you will need your bfabric login:
-
-* [Tutorial on Earth Microbiome data](https://fgcz-shiny.uzh.ch/QIIME2_EarthMicrobiome/)
-
-If you are interested in what qiime2 commands have been run on the dataset have a look at this document:
-
-* [QIIME2 commands](unifiedQIIME2Workflow.singleend.batch)
-
-### Bonus exercise - paired end sequencing
-
-If you are done with that and you have time, there is a bonus exercise. There is another dataset the two of you can analyse and answer related questions. Lets begin! 
-Go back to your project in SUSHI and select a dataset called 16S_SchlossMice. Enter this dataset. You will see it has 20 samples and the data refers to a study Schloss et al. 2012 (https://www.tandfonline.com/doi/full/10.4161/gmic.21008
-). What to do with this dataset? See the powerpoint presentation below:
-
-* [Powerpoint instructions on how to run QIIME2 Bonus exercise](instructions/QIIME2_Bonus.pptx)
-
-Once you familirized yourself with the reports please fill in the following tutorial based on the data, you will need data from both factors to answer the questions together:
-
-* [Tutorial on Schloss Mice data](https://fgcz-shiny.uzh.ch/QIIME2_Schloss_Mice/)
-
-At the end we can discuss the answers together so if anything is unclear - keep it in mind!
 
 ## Day 2: Metagenomics
 
