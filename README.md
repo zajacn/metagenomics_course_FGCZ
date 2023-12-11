@@ -3,7 +3,7 @@
 Welcome to the Metagenomics Course!
 
 Table of contents:
-* [Schedule]()
+* [Schedule](Schedule_Metagenomics_December2023.pdf)
 * [Course slides](slides/)
 * [Course in the Bfabric](https://fgcz-bfabric.uzh.ch/bfabric/project/show.html?id=33613&tab=details): here you can find all the communication.
 
