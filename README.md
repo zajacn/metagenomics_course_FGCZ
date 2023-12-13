@@ -63,20 +63,20 @@ After that we will continue to the following link to learn how to visualise QIIM
 
 QIIME2 creates html outputs which can also be very helpful. Have a look at these reports below (click on the links) that are created when you run the analysis with us via SUSHI:
 
-[Static Report](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/00index.html) - this is a combined report of all analysis with fixed/non interactive graphs\
-[Demux Report](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/demux_seqs.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of demultiplexed sequence counts and data quality\
-[Denoising Stats](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/dada2_denoising_stats.qzv.zip.folder/data/index.html) - a QIIME2 table on the filtered reads at each step\
-[Feature Table](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/table.qzv.zip.folder/data/index.html) - a QIIME2 interactive report on ASV summary \
-[Rep Seqs](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/dada2_rep_set.qzv.zip.folder/data/index.html) - a QIIME2 table on all features - if you click a feature it will take you to BLAST\
-[Taxonomy Barplot](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/taxa-bar-plots.qzv.zip.folder/data/index.html) - a QIIME2 interactive barplot showing the taxonomy\
-[Taxonomy](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/taxonomy.qzv.zip.folder/data/index.html) - a QIIME2 table of all the ASVs and their taxonomic classification\
-[Shannon Diversity](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/shannon_group_significance.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of alpha diversity \
-[Jaccard diversity](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/jaccard_group_significance.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of beta diversity (jaccard) \
-[Bray Curtis Diversity](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/bray_curtis_group_significance.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of beta diversity (bray curtis) \
-[Jaccard Emperor Plot](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/jaccard_emperor_plot.qzv.zip.folder/data/index.html) - a QIIME2 interactive 3D PCA based on Jaccard Matrix \
-[Bray Curtis Emperor Plot](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/bray_curtis_emperor_plot.qzv.zip.folder/data/index.html) - a QIIME2 interactive 3D PCA based on Bray Curtis Matrix \ 
-[Alpha Rarefaction](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/alpha-rarefaction.qzv.zip.folder/data/index.html) - a QIIME2 interactive plot showing rarefaction curve \
-[Differential abundance](https://fgcz-gstore.uzh.ch/projects/p26990/QIIME2App_2023-10-30--15-59-29/Results_Folder/ancom_group.qzv.zip.folder/data/index.html) - a QIIME2 interactive report on results of ANCOM
+[Static Report](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/00index.html) - this is a combined report of all analysis with fixed/non interactive graphs\
+[Demux Report](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/demux_seqs.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of demultiplexed sequence counts and data quality\
+[Denoising Stats](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/dada2_denoising_stats.qzv.zip.folder/data/index.html) - a QIIME2 table on the filtered reads at each step\
+[Feature Table](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/table.qzv.zip.folder/data/index.html) - a QIIME2 interactive report on ASV summary \
+[Rep Seqs](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/dada2_rep_set.qzv.zip.folder/data/index.html) - a QIIME2 table on all features - if you click a feature it will take you to BLAST\
+[Taxonomy Barplot](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/taxa-bar-plots.qzv.zip.folder/data/index.html) - a QIIME2 interactive barplot showing the taxonomy\
+[Taxonomy](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/taxonomy.qzv.zip.folder/data/index.html) - a QIIME2 table of all the ASVs and their taxonomic classification\
+[Shannon Diversity](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/shannon_group_significance.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of alpha diversity \
+[Jaccard diversity](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/jaccard_group_significance.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of beta diversity (jaccard) \
+[Bray Curtis Diversity](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/bray_curtis_group_significance.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of beta diversity (bray curtis) \
+[Jaccard Emperor Plot](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/jaccard_emperor_plot.qzv.zip.folder/data/index.html) - a QIIME2 interactive 3D PCA based on Jaccard Matrix \
+[Bray Curtis Emperor Plot](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/bray_curtis_emperor_plot.qzv.zip.folder/data/index.html) - a QIIME2 interactive 3D PCA based on Bray Curtis Matrix \ 
+[Alpha Rarefaction](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/alpha-rarefaction.qzv.zip.folder/data/index.html) - a QIIME2 interactive plot showing rarefaction curve \
+[Differential abundance](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/ancom_group.qzv.zip.folder/data/index.html) - a QIIME2 interactive report on results of ANCOM
 
 All these reports refer to the following workflow:
 
