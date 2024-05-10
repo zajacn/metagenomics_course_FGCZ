@@ -59,7 +59,7 @@ In this notebook, we will process the data using qiime2. Click the link to acces
 
 After that we will continue to the following link to learn how to visualise QIIME2 data and create figures for publications: There are some questions on the way, please answer and we will look at them together afterwards. This notebook was created by us.
 
-[![Qiime2 Visualisation (Colab)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zajacn/QIIME2_Tutorial_FGCZ_2023/blob/main/02_16SVisualisation.ipynb)
+[![Qiime2 Visualisation (Colab)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zajacn/QIIME2_Tutorial_FGCZ/blob/main/02_16S_Visualisation.ipynb)
 
 QIIME2 creates html outputs which can also be very helpful. Have a look at these reports below (click on the links) that are created when you run the analysis with us via SUSHI:
 
