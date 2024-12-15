@@ -1,0 +1,42 @@
+Instructions on how to prepare the metagenome-atlas tutorial.
+
+1.Make a project folder on scratch and make each student their own folder. Execute that of fgcz-h-176 and on all the other nodes on which you divide the students.
+
+mkdir /scratch/<project-folder>
+mkdir /scratch/<project-folder>/<student>
+
+2.Download the reads and initiate atlas project. Do this for all students because the path to working dir gets hardcoded.
+
+cd /scratch/<project-folder>/<student>/ 
+eval "$(/usr/local/ngseq/miniforge3/bin/conda shell.bash hook)"
+conda activate gi_metagenome_atlas2.8.1
+wget https://zenodo.org/record/3992790/files/test_reads.tar.gz #download test reads
+tar xvfz test_reads.tar.gz #untar and unzip the folder
+atlas init --db-dir /srv/GT/databases/metagenome_atlas_db/ --working-dir WD  test_reads 
+
+
+3. Edit the config.yaml. Make sure: 
+threads: 1
+mem: 8 
+-----
+large_mem: 8
+large_threads: 1
+assembly_threads: 1
+assembly_memory: 8
+assembler: megahit
+final_binner: maxbin
+binner:  
+- maxbin
+
+
+3. Run the assembly so that it takes less time for the students to execute this step
+
+cd WD
+atlas run assembly --resources mem=8 java_mem=8 --jobs 1
+
+4. Delete the following directories
+
+rm -R reports/assembly_report.html sample1/annotation/ sample1/assembly/ sample1/finished_assembly sample1/sample1_contigs.fasta sample1/logs/assembly/ sample1/logs/gene_annotation/ sample2/annotation/ sample2/assembly/ sample2/logs/assembly/ sample2/logs/gene_annotation/ sample2/finished_assembly sample2/sample2_contigs.fasta finished_assembly logs/assembly/ logs/benchmarks/assembly/pre_process/ logs/benchmarks/assembly/megahit/
+
+
+

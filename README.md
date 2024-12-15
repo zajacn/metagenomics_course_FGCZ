@@ -3,9 +3,9 @@
 Welcome to the Metagenomics Course!
 
 Table of contents:
-* [Schedule](Schedule_Metagenomics_December2023.pdf)
+* [Schedule](Schedule_BIO638_December_2024.pdf)
 * [Course slides](slides/)
-* [Course in the Bfabric](https://fgcz-bfabric.uzh.ch/bfabric/project/show.html?id=33613&tab=details): here you can find all the communication.
+* [Course in the Bfabric](https://fgcz-bfabric.uzh.ch/bfabric/project/show.html?id=37210): here you can find all the communication.
 
 
 For more information please see the description of each Day.
@@ -24,19 +24,19 @@ You will end up on a page like this, not exactly like this but the same outline:
 In the top right corner (window "Project") enter your project number.
 Here are your project numbers:
 
-8001 - Roos G.\
-8002 - Eunhee C.\
-8003 - Elizabet L.\
-8004 - Gianna S.\
-8005 - Mauro E.\
-8006 - Luca T.\
-8007 - Asa W.\
-8008 - Ian Y.\
-8009 - Denise Lea W.\
-8010 - Vadim N.\
-8011 - Michele L.\
-8012 - Bright N.\
-8013 - Jessie James M.\
+8001 - bbarso \
+8002 - dobariya \
+8003 - peppen \
+8004 - zilianiagustina \
+8005 -  \
+8006 -  \
+8007 - \
+8008 -  \
+8009 - \
+8010 - \
+8011 - \
+8012 - \
+8013 - 
 
 Exercise instructions:
 
@@ -47,36 +47,36 @@ Please look at the following slides to run the FastQC tutorial.
 
 * [FastQC tutorial link](instructions/FastQC.pptx)
 
-Now that we have completed the exercises we will go on to a lecture on 16S. We will then have a guest talk from a researcher using 16S in her research. Afterwards we will do an exercises using QIIME2.
+Now that we have completed the exercises we will go on to a lecture on 16S to understand basic concepts. Afterwards we will do an exercises using QIIME2: read preprocessing and visualisation.
 
 ### QIIME2 analysis 
 
-The software we will use for analysing our 16S rRNA datasets is QIIME2. For more info please see: https://docs.qiime2.org/2023.2/. We will use a dataset from the Earth Microbiome Project as discussed. 
+The software we will use for analysing our 16S rRNA datasets is QIIME2. For more info please see: https://docs.qiime2.org/2024.10/. We will use a dataset from the Earth Microbiome Project as discussed.    
 
-[![Read Processing (Colab)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bokulich-lab/uzh-microbiome-tutorial/blob/main/01_read_processing.ipynb)
+[![Read Preprocessing (Colab)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zajacn/QIIME2_Read_Preprocessing_FGCZ/blob/main/QIIME2_Read_Processing.ipynb)
 
-In this notebook, we will process the data using qiime2. Click the link to access. The notebook is created by the authors of QIIME2.
+In this notebook, we will process the data using qiime2. Click the link to access. The notebook is inspired by a workshop I attended from the QIIME2 authors.
 
 After that we will continue to the following link to learn how to visualise QIIME2 data and create figures for publications: There are some questions on the way, please answer and we will look at them together afterwards. This notebook was created by us.
 
-[![Qiime2 Visualisation (Colab)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zajacn/QIIME2_Tutorial_FGCZ_2023/blob/main/02_16SVisualisation.ipynb)
+[![Qiime2 Visualisation (Colab)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zajacn/QIIME2_Tutorial_FGCZ/blob/main/02_16S_DataAnalysis_Visualisation.ipynb)
 
 QIIME2 creates html outputs which can also be very helpful. Have a look at these reports below (click on the links) that are created when you run the analysis with us via SUSHI:
 
-[Static Report](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/00index.html) - this is a combined report of all analysis with fixed/non interactive graphs\
-[Demux Report](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/demux_seqs.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of demultiplexed sequence counts and data quality\
-[Denoising Stats](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/dada2_denoising_stats.qzv.zip.folder/data/index.html) - a QIIME2 table on the filtered reads at each step\
-[Feature Table](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/table.qzv.zip.folder/data/index.html) - a QIIME2 interactive report on ASV summary \
-[Rep Seqs](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/dada2_rep_set.qzv.zip.folder/data/index.html) - a QIIME2 table on all features - if you click a feature it will take you to BLAST\
-[Taxonomy Barplot](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/taxa-bar-plots.qzv.zip.folder/data/index.html) - a QIIME2 interactive barplot showing the taxonomy\
-[Taxonomy](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/taxonomy.qzv.zip.folder/data/index.html) - a QIIME2 table of all the ASVs and their taxonomic classification\
-[Shannon Diversity](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/shannon_group_significance.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of alpha diversity \
-[Jaccard diversity](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/jaccard_group_significance.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of beta diversity (jaccard) \
-[Bray Curtis Diversity](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/bray_curtis_group_significance.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of beta diversity (bray curtis) \
-[Jaccard Emperor Plot](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/jaccard_emperor_plot.qzv.zip.folder/data/index.html) - a QIIME2 interactive 3D PCA based on Jaccard Matrix \
-[Bray Curtis Emperor Plot](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/bray_curtis_emperor_plot.qzv.zip.folder/data/index.html) - a QIIME2 interactive 3D PCA based on Bray Curtis Matrix \ 
-[Alpha Rarefaction](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/alpha-rarefaction.qzv.zip.folder/data/index.html) - a QIIME2 interactive plot showing rarefaction curve \
-[Differential abundance](https://fgcz-gstore.uzh.ch/projects/p33613/QIIME2App_2023-10-30--15-59-29/Results_Folder/ancom_group.qzv.zip.folder/data/index.html) - a QIIME2 interactive report on results of ANCOM
+[Static Report](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/00index.html) - this is a combined report of all analysis with fixed/non interactive graphs\
+[Demux Report](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/demux_seqs.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of demultiplexed sequence counts and data quality\
+[Denoising Stats](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/dada2_denoising_stats.qzv.zip.folder/data/index.html) - a QIIME2 table on the filtered reads at each step\
+[Feature Table](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/table.qzv.zip.folder/data/index.html) - a QIIME2 interactive report on ASV summary \
+[Rep Seqs](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/dada2_rep_set.qzv.zip.folder/data/index.html) - a QIIME2 table on all features - if you click a feature it will take you to BLAST\
+[Taxonomy Barplot](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/taxa-bar-plots.qzv.zip.folder/data/index.html) - a QIIME2 interactive barplot showing the taxonomy\
+[Taxonomy](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/taxonomy.qzv.zip.folder/data/index.html) - a QIIME2 table of all the ASVs and their taxonomic classification\
+[Shannon Diversity](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/shannon_group_significance.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of alpha diversity \
+[Jaccard diversity](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/jaccard_group_significance.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of beta diversity (jaccard) \
+[Bray Curtis Diversity](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/bray_curtis_group_significance.qzv.zip.folder/data/index.html) - a QIIME2 interactive report of beta diversity (bray curtis) \
+[Jaccard Emperor Plot](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/jaccard_emperor_plot.qzv.zip.folder/data/index.html) - a QIIME2 interactive 3D PCA based on Jaccard Matrix \
+[Bray Curtis Emperor Plot](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/bray_curtis_emperor_plot.qzv.zip.folder/data/index.html) - a QIIME2 interactive 3D PCA based on Bray Curtis Matrix \ 
+[Alpha Rarefaction](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/alpha-rarefaction.qzv.zip.folder/data/index.html) - a QIIME2 interactive plot showing rarefaction curve \
+[Differential abundance](https://fgcz-gstore.uzh.ch/projects/p37210/QIIME2App_2023-10-30--15-59-29/Results_Folder/ancom_group.qzv.zip.folder/data/index.html) - a QIIME2 interactive report on results of ANCOM
 
 All these reports refer to the following workflow:
 
@@ -95,7 +95,7 @@ First, before you begin the practical you need to be able to log in to the clust
 
 ### Metagenome Atlas Tutorial 1
 
-If you find yourself in a place that looks like this (except with your name and perhaps a different server):
+If you find yourself in a place that looks like this (except with your name and perhaps a different server and perhaps a different project):
 
 ![plot](pictures/cluster_location_scshot.png)
 
@@ -106,16 +106,16 @@ Otherwise if you need any help on how to navigate, here is a bash cheet sheet. U
 
 You can find the tutorial here: https://fgcz-shiny.uzh.ch/Metagenome_Atlas_Part_1/
 
-## Day 3: Metagenomics and Metatranscriptomics
-
-Again busy day ahead of us. But don't worry, last day! Today we first follow the tutorial on Metagenome Atlas but the second one this time. You don't need to log into the cluster like you did before. Everything is R based.
-
 ### Metagenome Atlas Tutorial 2
 
 You will find all information within the tutorial on how to do it. 
 You can find the precise instructions and the tutorial here: https://fgcz-shiny.uzh.ch/Metagenome_Atlas_Part_2/
 
 REMEMBER THAT IF YOU WOULD LIKE TO GO BACK TO ANY OF THE TUTORIALS YOU CAN FIND ALL OF THE INFORMATION HERE (it is a bit different than what we have done): https://github.com/metagenome-atlas/Tutorial
+
+## Day 3: Metagenomics and Metatranscriptomics
+
+Again busy day ahead of us. But don't worry, last day!
 
 Now that we have explored assembly-based metagenomics, lets explore assembly-free metagenomics and metatranscriptomics. A tool that we will use for assembly-free metagenomics is Kraken2. We will look at the theory behind Kraken and do a tutorial. We will produce an html report using Krona. 
 Afterwards we will turn to Metatranscriptomics (see more info below).
@@ -166,7 +166,3 @@ you explain what has been happening?
 - What functions do you see upregulated or downregulated in the microbiome of
 patients who were not successfully treated? Are there any parallels with the cured
 patients? Does anything interesting strike you?
-
-Lets discuss.
-
-THANK YOU AND CONGRATULATIONS FOR COMPLETING THE COURSE!!!

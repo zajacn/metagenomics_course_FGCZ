@@ -1,0 +1,11 @@
+About the courses instances, how to activate them.
+
+Two course SUSHI intstances:
+•	https://fgcz-course1.bfabric.org/ (fgcz-c-035, faster)
+•	https://fgcz-course2.bfabric.org/ (fgcz-h-940, slower, backup server)
+
+Update /srv/sushi/course_sushi/master/config/environments/production.rb - add projects 8000-8013 (that is where all the data is already stored and prepared)
+•	just add a project in config.course_users
+Then reboot:
+•	Normally, passenger-config restart-app (by trxcopy) on 35
+•	Secondly (in case of failure passenger-config), sudo /etc/init.d/apache2 restart (but you should be a sudoer)
