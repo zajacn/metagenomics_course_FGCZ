@@ -24,10 +24,10 @@ You will end up on a page like this, not exactly like this but the same outline:
 In the top right corner (window "Project") enter your project number.
 Here are your project numbers:
 
-8001 - bbarso \
-8002 - dobariya \
-8003 - peppen \
-8004 - zilianiagustina \
+8001 -  \
+8002 -  \
+8003 -  \
+8004 -  \
 8005 -  \
 8006 -  \
 8007 - \
